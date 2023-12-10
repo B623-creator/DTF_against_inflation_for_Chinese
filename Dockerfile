@@ -11,6 +11,4 @@ COPY data ./data/
 
 EXPOSE 8888
 
-COPY start-notebook.sh /usr/local/bin/
-
 CMD ["start-notebook.sh", "--NotebookApp.token=''"]
