@@ -12,4 +12,4 @@ COPY data ./data/
 
 EXPOSE 8888
 
-CMD ["start-notebook.sh", "--NotebookApp.default_url=/tree/src/Hedge_Against_inflation_Tool.ipynb", "--NotebookApp.token=''"]
+CMD ["start-notebook.sh", "--NotebookApp.default_url=/src/Hedge_Against_inflation_Tool.ipynb", "--NotebookApp.token=''"]
